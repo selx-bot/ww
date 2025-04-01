@@ -2,13 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Open Graph (OG) Meta Tags for Link Previews -->
     <meta property="og:title" content="My Custom GitHub Repo">
     <meta property="og:description" content="Check out my GitHub repository with a custom preview image!">
     <meta property="og:image" content="https://files.catbox.moe/6req4u.jpg">
-    <meta property="og:url" content="https://github.com/selx-bot/tttt">
+    <meta property="og:url" content="https://files.catbox.moe">
     <meta name="twitter:card" content="summary_large_image">
+
     <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0;url=https://github.com/selx-bot/tttt">
+
+    <!-- Delayed Redirect to Allow Metadata Fetch -->
+    <script>
+        setTimeout(() => {
+            window.location.href = "https://github.com/selx-bot/tttt";
+        }, 10000); // 2-second delay
+    </script>
 </head>
 <body>
     <p>If you are not redirected, <a href="https://github.com/selx-bot/tttt">click here</a>.</p>
